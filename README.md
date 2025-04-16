@@ -44,6 +44,10 @@ We used a simple Raspberry Pico and [encoder from dfrobot](https://wiki.dfrobot.
 ![02](/utils/3d-02.png)
 ![03](/utils/3d-03.png)
 
+The main axe is en square steel 50*50mm 2m long.
+
+The structure is made with regular alumuminium Type I 40*40mm
+
 Blender file is available in `3D` folder
 
 All print parts are available in `3D/prints`.
