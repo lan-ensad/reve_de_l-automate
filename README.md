@@ -40,4 +40,12 @@ We used a simple Raspberry Pico and [encoder from dfrobot](https://wiki.dfrobot.
 
 ### Engineering
 
-[PHOTO][3D]
+![01](/utils/3d-01.png)
+![02](/utils/3d-02.png)
+![03](/utils/3d-03.png)
+
+Blender file is available in `3D` folder
+
+All print parts are available in `3D/prints`.
+
+Thx to [droftarts](https://www.thingiverse.com/droftarts/designs) for his parametric pulley generator with OpenScad.
