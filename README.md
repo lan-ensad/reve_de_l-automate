@@ -8,7 +8,7 @@ Déployé dans le cadre du festival Recto VRso @LavaL 2025. Dispositif d'expéri
 
 ## How it works
 
-![diam](utils/interact.png)
+![diam](utils/diag_interact.png)
 
 We works with two different version : 
 
