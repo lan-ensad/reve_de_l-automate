@@ -23,3 +23,5 @@ We used a simple Raspberry Pico and [encoder from dfrobot](https://wiki.dfrobot.
 All details in `upython/encoder`
 
 ### Engineering
+
+[PHOTO][3D]
