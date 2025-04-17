@@ -69,7 +69,9 @@ Pretty simple connections.
 ## WTF
 
 Sometimes this issue comes from nowhere
+
 ![shining](utils/shining.gif)
+
 Infinite loop frome the generative computing
 
 <br/>
