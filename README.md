@@ -46,10 +46,12 @@ We used a simple Raspberry Pico and [encoder from dfrobot](https://wiki.dfrobot.
 
 The main axe is en square steel 50*50mm 2m long.
 
-The structure is made with regular alumuminium Type I 40*40mm
+The structure is made with regular alumuminium Type I slots 40*40mm
 
 Blender file is available in `3D` folder
 
 All print parts are available in `3D/prints`.
 
 Thx to [droftarts](https://www.thingiverse.com/droftarts/designs) for his parametric pulley generator with OpenScad.
+
+### Electronic

@@ -1,7 +1,6 @@
 from machine import Pin
 import time
 from speed_calc import SpeedCalculator
-from simple_pid import SimplePID
 
 A_PHASE = Pin(0, Pin.IN, Pin.PULL_UP) # White
 B_PHASE = Pin(1, Pin.IN, Pin.PULL_UP) # Green
@@ -14,12 +13,11 @@ OFFSET_SPEED = 0.15
 SAMPLE_TIME = 300 # ms wait to calculate the next speed
 LOOP_TIME = 1 # waiting before recall the loop
 
-pid = SimplePID(kp=0.5, ki=0.1, kd=0.01, dt=0.1)
 speed_calc = SpeedCalculator(SAMPLE_TIME, STEPS_PER_CM)
 
 flagA=0
 flagB = 0
-direction = 0
+direction = 0 # Direction detection implemented but not used >.<
 prev_r = 0
 prev_position = 0
 prev_speed = 0
@@ -64,7 +62,7 @@ def calc_pos(flagA, flagB):
 
 while True:
     position = calc_pos(flagA, flagB)
-    speed = convert(speed_calc.calc_speed(flagA, flagB), -6, 6, -2, 2)*3
+    speed = convert(speed_calc.calc_speed(flagA, flagB), -6, 6, -2, 2)*3 # Sorry for that
     w_speed = check_speed(speed, TARGET_SPEED, OFFSET_SPEED)
     check_reset()
 
