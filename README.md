@@ -65,3 +65,9 @@ Thx to [droftarts](https://www.thingiverse.com/droftarts/designs) for his parame
 Pretty simple connections.
 
 ![wiring](utils/wiring.png)
+
+## WTF
+
+Sometimes this issue comes from nowhere
+![shining](utils/shining.gif)
+Infinite loop frome the generative computing
