@@ -1,6 +1,8 @@
 # reve_de_l-automate
 Déployé dans le cadre du festival Recto VRso @LavaL 2025. Dispositif d'expérimentation de rêves collectivement construits.
 
+![cover](utils/mons_01.jpg)
+
 ## requierements
 
 - `pip install flask flask-socketio python-osc gTTS`
@@ -26,11 +28,15 @@ The both solution need a OSC server. We can combine by using a different compute
 
 ## Ollama
 
+![generating](utils/generating.gif)
+
 For this project we only used the Modelfile to pre-prompt the model. Can find in `ollama/model/ModelFile`. All details [here](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
 
 The base model we used is gemma3.
 
 ## Machine setup
+
+![machine](utils/mons_02.jpg)
 
 ### MCU
 
@@ -55,3 +61,7 @@ All print parts are available in `3D/prints`.
 Thx to [droftarts](https://www.thingiverse.com/droftarts/designs) for his parametric pulley generator with OpenScad.
 
 ### Electronic
+
+Pretty simple connections.
+
+![wiring](utils/wiring.png)
