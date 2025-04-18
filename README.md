@@ -74,7 +74,7 @@ Sometimes this issue comes from nowhere
 
 ![shining](utils/shining.gif)
 
-Infinite loop frome the generative computing
+Infinite loop
 
 <br/>
 
