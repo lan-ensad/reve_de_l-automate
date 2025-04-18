@@ -14,9 +14,9 @@ https://www.instagram.com/reel/DIYxOZmNZea/
 
 ![diam](utils/diag_interact.png)
 
-We works with two different version : 
+We works with two differents version : 
 
-- karaoke speacker\
+- karaoke speaker\
 Launch ollama/flask_karaoke/karaoke.py. It will launch a server that wait for :
     - `/filenametxt` send by interact.py
     - `/position` send by the MCU. A simple calculation to match the lentgh of the dolly cam with the length of the .txt file.
