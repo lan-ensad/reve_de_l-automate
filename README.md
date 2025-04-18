@@ -1,12 +1,12 @@
 # reve_de_l-automate
 Déployé dans le cadre du festival Recto VRso @LavaL 2025. Dispositif d'expérimentation de rêves collectivement construits.
 
+*teaser*
+![video](https://vimeo.com/1073306501)
+
 https://www.instagram.com/reel/DIYxOZmNZea/
 
 ![cover](utils/mons_01.jpg)
-
-*teaser*
-![video](https://vimeo.com/1073306501)
 
 ## requierements
 
